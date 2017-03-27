@@ -15,7 +15,7 @@
  */
 
 
-nav {
+nav, .location, .coming-soon, footer{
   background-color:#ebeced;
 }
 
@@ -27,6 +27,10 @@ i.material-icons {
   color:#33658a !important;
 }
 
+.row {
+  margin-bottom:0 !important;
+}
+
 #mobile-demo {
   background-color:#33658a;
 }
@@ -34,4 +38,18 @@ i.material-icons {
 #mobile-demo li a {
   color:white;
   border-bottom:1px solid white;
+}
+
+.latest-film {
+  background-color:#33658a;
+}
+
+footer ul {
+  text-align:center;
+  margin:0;
+}
+
+footer ul li {
+  display:inline-block;
+  padding:10px;
 }
